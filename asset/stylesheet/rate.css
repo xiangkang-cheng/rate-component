@@ -1,0 +1,65 @@
+@font-face {
+  font-family: rate-icons;
+  src: url(../font/icon.woff) format('woff');
+  font-weight: 400;
+  font-display: 'auto';
+  font-style: normal;
+}
+[class*=' icon-'],
+[class^='icon-'] {
+  font-family: rate-icons !important;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: baseline;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rate-icon,
+.rate-item {
+  position: relative;
+  display: inline-block;
+}
+.rate {
+  height: 20px;
+  line-height: 1;
+}
+.rate-item {
+  font-size: 0;
+  vertical-align: middle;
+}
+.rate-icon {
+  font-size: 18px;
+  margin-right: 6px;
+}
+.rate-decimal {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rate-decimal {
+  display: inline-block;
+  overflow: hidden;
+}
+.rate-text {
+  font-size: 14px;
+  vertical-align: middle;
+  color:#ff9900;
+}
+
+.icon-star-off:before {
+  content: '\e717';
+}
+.icon-star-on:before {
+  content: '\e797';
+}
+.icon-star-on {
+  color: #f7ba2a
+}
+.icon-star-off {
+  color: #C6D1DE
+}
